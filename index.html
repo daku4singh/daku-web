@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" ref="stylesheet">
+        <!---<script src="script.js"></script>--->
+        <title>Gaddaria</title>
+    </head>
+    <body>
+        <h2>Calculate Area</h2>
+        <input id="number_input" type="number">
+        <button onclick="getarea()">Enter</button>
+        <script>
+            let list=[];
+            function getarea(){
+                var side=document.getElementById("number_input");
+                list.push(side.value);
+                console.log(list);
+            }
+        </script>
+    </body>
+</html>
